@@ -1,0 +1,90 @@
+body {
+    background: #1d1d1d;
+    color: white;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form__input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form__button{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    color: #777;
+    background: none;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.form__button:hover{
+background: #777;
+color: white;
+}
+
+
+
+.displayUsers{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayUsers__box{
+    width: 300px;
+    min-height: 50px;
+    box-shadow: 0 0 15px 2px rgba(153, 153, 153, 0.3);
+    border-radius: 10px;
+    border: 1px solid #777;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.displayUsers__input{
+    width: 90%;
+    height: 30px;
+    color: #777;
+    border: 1px solid #777;
+    background: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 8px 0;
+}
+
+.displayUsers__buttonCont{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayUsers__button{
+width: 30%;
+padding: 10px;
+margin: 16px;
+cursor: pointer;
+border-radius: 5px;
+}
